@@ -33,7 +33,7 @@ function newItem(picture, left, bottom, name) {
     img.style.bottom = bottom + "px"
     mainDiv.appendChild(img)
 
-    newImage(picture, left, bottom, name)
+
 
     img.addEventListener("dblclick", function() {
         img.remove()
